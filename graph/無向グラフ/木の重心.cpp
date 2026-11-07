@@ -9,7 +9,7 @@ ll dp[200020]={};
 vector<ll> root(200020,-1);
 vector<ll> V;
 
-//木dp : ある頂点を根として、各頂点に対して、その頂点を根とする部分木の超点数を求める
+//木dp : ある頂点を根として、各頂点に対して、その頂点を根とする部分木の頂点数を求める
 ll tree_dp(ll now,ll parent){
     root[now]=parent;
     dp[now]=1;
