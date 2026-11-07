@@ -15,11 +15,5 @@ int main(){
 bool ch(string S){
     string T=S;
     reverse(T.begin(),T.end());
-    if(S==T){
-        return true;
-    }
-    else{
-        return false;
-    }
-    return false;
+    return (S==T);
 }
