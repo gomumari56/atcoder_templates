@@ -50,8 +50,8 @@ int main(){
     vector<ll> V,in(N),out(N);
     et(0,-1,G,V,in,out);
 
-    //Vは長さ2*Nなので対応するsegtreeも長さ2*Nにする
-    segtree<S,op,e> seg(2*N);
+    //Vは長さ2*N-1なので対応するsegtreeも長さ2*N-1にする
+    segtree<S,op,e> seg(2*N-1);
 
     //初期値を1にする(入力で与えられる場合もある)
     for(ll i=0;i<N;i++){
