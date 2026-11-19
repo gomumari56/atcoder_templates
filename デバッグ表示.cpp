@@ -32,7 +32,7 @@ void OUT(const T &X, ostream &os = cout){
         }
     }
 }
-#define debug(x) cerr << endl << #x << ":" << endl, OUT(x, cerr), cout << endl
+#define debug(x) cerr << endl << #x << ":" << endl, OUT(x, cerr), cerr << endl
 /////////////////////////////////////////////////
 
 
