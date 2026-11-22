@@ -1,7 +1,6 @@
+//reference: https://github.com/gomumari56/atcoder_templates
 #include<bits/stdc++.h>
 #define ll long long
-#define vll vector<ll>
-#define vvll vector<vector<ll>>
 using namespace std;
 int main(){
     ll N;
