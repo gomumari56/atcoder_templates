@@ -1,3 +1,4 @@
+//reference: https://github.com/gomumari56/atcoder_templates
 #include<bits/stdc++.h>
 #define ll long long
 #define MOD 998244353
@@ -7,6 +8,9 @@ ll psmod(ll a,ll r,ll n); //初項a,公比r,項数nの等比級数の和 %MOD
 ll modinv(ll a); //aの逆元
 ll expect_mod(ll p,ll q); //期待値 有理数p/qに対するmod (Rの値)
 int main(){
+    cin.tie(nullptr);
+    ios_base::sync_with_stdio(false);
+    
     ll k=powmod(2,7); //2の7乗 をMODで割ったあまり
     ll x=psmod(1,2,5); //初項1、公比2、項数5の等比数列の和 をMODで割ったあまり
     cout << k << " " << x << endl;
